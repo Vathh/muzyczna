@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salon Fryzjerski</title>
+    <link rel="icon" type="image/x-icon" href="/dist/img/favicon (1).ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -29,11 +30,23 @@
         </div>
     </nav>
 
-    <header class="header">
+    <nav class="nav__large">
+    <div class="nav__box1">
+        <a class="nav__box1-navitem nav__large-home" href="index.html#home">Strona główna</a>
+        <a class="nav__box1-navitem nav__large-aboutus"
+        href="index.html#aboutusForLargeNav">O nas</a>
+        <a href="index.html"><img src="dist/img/fryzlogo.jpg" alt="Logo firmy - Studio fryzur. Urszula Kotowska."></a>
+        <a href="services.html" class="nav__box1-navitem">Usługi</a>
+        <a href="pricelist.html" class="nav__box1-navitem">Cennik</a>
+        <a href="index.html#contact" class="nav__box1-navitem nav__large-contact">Kontakt</a>
+    </div>
+</nav>
+
+    <header id="home" class="header">
     <div class="wrapper">
         <div class="header__box1">
-            <img src="/dist/img/fryzlogo.jpg" alt="Logo firmy - Studio fryzur. Urszula Kotowska." class="header__box1-logo">
-        </div>
+            <a href="index.html"><img src="dist/img/fryzlogo.jpg" alt="Logo firmy - Studio fryzur. Urszula Kotowska." class="header__box1-logo"></a>
+        </div>        
         <div class="header__box2">
             <div class="header__box2-city">
                 <h2>Suwałki</h2>
@@ -63,12 +76,13 @@
                     
                     <p class="start__text">To tu pasja i kunszt zawodowy tworzą nowy wymiar fryzjerstwa.</p> 
                     
-                    <a href=""><i class="fas fa-chevron-down"></i> b</a>
+                    <a href="#aboutusForLargeNav"><i class="fas fa-chevron-down"></i></a>
                 </div>
             </div>
         </section>
 
         <section id="aboutus" class="section aboutus">
+            <div id="aboutusForLargeNav" class="aboutusForLargeNav"></div>
             <div class="wrapper">
                 <h2 class="section__header">O nas</h2>
 
@@ -86,35 +100,42 @@
                     <div class="aboutus__card card-one">          
                         <div class="aboutus__card-shadow">
                             <h3 class="aboutus__card-title">Ekspertki koloryzacji</h3>
-                            <p class="aboutus__card-text">Odpowiednio dobrany kolor podkreśli Twoją osobowość, charakter oraz styl. Dzięki tej usłudze możesz diametralnie zmienić swój kolor włosów, pogłębić naturalny odcień czy zamaskować siwe włosy. Oferujemy Ci szeroką gamę technik oraz wariantów koloryzacji.</p>
+                            <p class="aboutus__card-text">Niezależnie czy potrzebujesz radykalnej zmiany, podkreślenia naturalnego koloru, czy też zamaskowania siwych włosów - jesteś w dobrym miejscu. W naszej ofercie z pewnością znajdziesz wariant dla siebie, możesz też liczyć na fachowe doradztwo z naszej strony.</p>
                         </div>             
                     </div>
 
                     <div class="aboutus__card card-two">          
                         <div class="aboutus__card-shadow">
                             <h3 class="aboutus__card-title">Niebanalne stylizacje</h3>
-                            <p class="aboutus__card-text">Stylizacja jest zabiegiem pozwalającym na dopełnienie naszego wizerunku. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus non sapiente at nostrum aspernatur voluptatem.</p>
+                            <p class="aboutus__card-text">Stylizacja to zabieg pozwalający podkreślić urodę i wyrazić swój styl oraz osobowość. Szykujesz się na specjalną okoliczność, a może chciałabyś wyglądać naprawdę wyjątkowo również na co dzień? Wizyta w naszym salonie z pewnością Ci w tym pomoże. </p>
                         </div>             
                     </div>
 
                     <div class="aboutus__card card-three">          
                         <div class="aboutus__card-shadow">
                             <h3 class="aboutus__card-title">Precyzyjne cięcie</h3>
-                            <p class="aboutus__card-text">Fryzura jaką nosimy powinna podkreślać atuty naszej twarzy oraz pasować do sylwetki. Słuchamy jakie są Wasze oczekiwania, co sprawia Wam największą trudność w codziennej stylizacji. Łączymy nowoczesne i modne formy z tradycją i klasyką – to Ty wybierasz w którą stronę pójdziemy. </p>
+                            <p class="aboutus__card-text">Fryzura dopasowana do naszej sylwetki sprawia, że czujemy się lepiej. Odpowiednim strzyżeniem  pomożemy Ci wydobyć naturalne piękno i podkreślić Twoje atuty. Kluczowym dla nas jest wysłuchanie Twoich oczekiwań, a następnie przekucie ich w rzeczywistość.</p>
                         </div>             
                     </div>
 
                     <div class="aboutus__card card-four">          
                         <div class="aboutus__card-shadow">
                             <h3 class="aboutus__card-title">Zabiegi pielęgnacyjne</h3>
-                            <p class="aboutus__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione beatae odit corporis ipsam optio ullam quaerat voluptates animi esse aperiam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, sed.</p>
+                            <p class="aboutus__card-text">Domowe sposoby walki ze złą kondycją włosów są uciążliwe i często nie przynoszą oczekiwanych skutków. Dobrym rozwiązaniem są profesjonalne zabiegi, dzięki którym dogłębnie odżywimy i odbudujemy strukturę Twoich włosów.</p>
                         </div>             
                     </div>
 
                     <div class="aboutus__card card-five">          
                         <div class="aboutus__card-shadow">
+                            <h3 class="aboutus__card-title">Zabiegi specjalistyczne</h3>
+                            <p class="aboutus__card-text">Jeżeli chciałabyś zrobić coś więcej dla swoich włosów lub przeżyć prawdziwą metamorfozę – zapraszamy do skorzystania z naszej oferty specjalnej, a w niej między innymi: przedłużanie i zagęszczanie włosów, mezoterapia igłowa, prostowanie keratynowe.</p>
+                        </div>             
+                    </div>
+
+                    <div class="aboutus__card card-six">          
+                        <div class="aboutus__card-shadow">
                             <h3 class="aboutus__card-title">Strefa dla mężczyzn</h3>
-                            <p class="aboutus__card-text">W naszym salonie nie mogło zabraknąć miejsca dla Panów ceniących sobie usługi na najwyższym poziomie. Dla Ciebie przygotowaliśmy nowoczesne techniki strzyżeń włosów dopasowane do kształtu głowy i indywidualnych potrzeb.</p>
+                            <p class="aboutus__card-text">Nasza oferta skierowania jest naturalnie również do Panów ceniących sobie usługi na najwyższym poziomie. Zadbamy o Twój wygląd niezależnie czy chcesz podążać za trendami, pozostać wiernym klasyce czy też zamaskować siwiznę.</p>
                         </div>             
                     </div>
                 </div>
@@ -171,14 +192,14 @@
             </div>
         </section>
         
-        <footer class="footer">
+        <footer class="footer section">
     <div class="wrapper">
         <div class="footer__box">
             <p class="footer__box-item">&copy; <span class="footer__year"></span> SunnyVale</p>
             <a href="" class="footer__box-item">Polityka prywatności</a>
             <a href="" class="footer__box-item">Regulamin</a>
-            <a href="" class="footer__box-item">Usługi</a>
-            <a href="" class="footer__box-item">Cennik</a>
+            <a href="services.html" class="footer__box-item">Usługi</a>
+            <a href="pricelist.html" class="footer__box-item">Cennik</a>
         </div>
     </div>
 </footer>
